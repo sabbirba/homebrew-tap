@@ -1,5 +1,5 @@
 class Preprinttui < Formula
-  desc "Interactive Terminal User Interface for PreConnect printer"
+  desc "Interactive Terminal User Interface for PreConnect Printer"
   homepage "https://preconnect.app"
   version "0.1.0"
   license "GPL-3.0-only"
