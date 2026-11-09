@@ -1,20 +1,20 @@
 class Preprinttui < Formula
   desc "Interactive Terminal User Interface for PreConnect printer"
   homepage "https://preconnect.app"
-  version "0.1.15"
+  version "0.1.16"
   license "GPL-3.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sabbirba/preprinttui/releases/download/v#{version}/preprinttui-macos-arm64.tar.gz"
-      sha256 "1332e7e93e83564292cf50972c50080c97e7e53a85b72d3fdc54badf3b604ed1"
+      sha256 "81535dfd8885f0bd6f7f947a138ea38383f522e93f6de64c345dd4a27948b976"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/sabbirba/preprinttui/releases/download/v#{version}/preprinttui-linux-musl-x86_64.tar.gz"
-      sha256 "99757a7672edf4ee226a7472a787419505c407d4ccb1d273daf136331c9ca527"
+      sha256 "2c3fb478b1098c19c343180e984702189a1a2870e322a344e8998a590de68f90"
     end
   end
 
